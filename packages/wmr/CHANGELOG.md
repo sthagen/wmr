@@ -1,5 +1,13 @@
 # wmr
 
+## 3.4.1
+
+### Patch Changes
+
+- [`9025ca1`](https://github.com/preactjs/wmr/commit/9025ca1212e5cd241834524310f89e0db94aadc1) [#762](https://github.com/preactjs/wmr/pull/762) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Fix unable to intercept WMR middlewares. Custom middlewares are now the first to be processed, similar to plugins.
+
+* [`78fb36d`](https://github.com/preactjs/wmr/commit/78fb36d3fef1c30ceee9f0b9b3ecabb29c8bb525) [#760](https://github.com/preactjs/wmr/pull/760) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Fix incorrect middleware `request` typings
+
 ## 3.4.0
 
 ### Minor Changes
